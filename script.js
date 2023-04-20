@@ -59,6 +59,7 @@ function resumeTimer() {
 
 function resetTimer() {
     clearInterval(interval);
+    isPaused = false;
     minutes = 0;
     seconds = 0;
     milliseconds = 0;
