@@ -40,8 +40,8 @@ function startTimer() {
         }
     }, 10);
 
-    startBtn.style.display = "none"
-    pauseBtn.style.display = "block"
+    startBtn.style.display = "none";
+    pauseBtn.style.display = "block";
 
 }
 
